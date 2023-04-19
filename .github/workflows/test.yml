@@ -1,0 +1,11 @@
+name: "test"
+on: push
+jobs:
+    test:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Check out repository
+              uses: actions/checkout@v3
+
+            - name: Verify repository integrity
+              uses: tum-esm/em27-metadata@main
