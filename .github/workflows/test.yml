@@ -8,4 +8,4 @@ jobs:
               uses: actions/checkout@v3
 
             - name: Verify repository integrity
-              uses: tum-esm/em27-metadata@v2.0.0-rc.1
+              uses: tum-esm/em27-metadata@v2.0.0-rc.2
