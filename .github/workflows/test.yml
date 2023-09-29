@@ -1,8 +1,8 @@
 name: "test"
 on: push
 jobs:
-    test:
-        runs-on: ubuntu-22.04
-        steps:
-            - name: Verify repository integrity
-              uses: tum-esm/em27-metadata@v2.0.0-rc.5
+  test:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Verify repository integrity
+        uses: tum-esm/em27-metadata@v1.0.0-rc.3
