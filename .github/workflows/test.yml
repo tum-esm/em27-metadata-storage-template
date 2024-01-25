@@ -4,7 +4,5 @@ jobs:
   test:
     runs-on: ubuntu-22.04
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
       - name: Verify repository integrity
-        uses: tum-esm/em27-metadata@v1.0.0-rc.12
+        uses: tum-esm/em27-metadata@v1.0.0-rc.13
