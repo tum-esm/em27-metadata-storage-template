@@ -1,10 +1,15 @@
-name: "test"
+name: Validate metadata
+
 on: push
+
+permissions:
+  contents: read
+
 jobs:
-  test:
+  validate:
     runs-on: ubuntu-22.04
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-      - name: Verify repository integrity
-        uses: tum-esm/em27-metadata@v1.3.0
+      - name: Validate EM27 metadata
+        uses: tum-esm/em27-retrieval-pipeline/.github/actions/validate-metadata@latest
