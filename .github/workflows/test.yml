@@ -12,4 +12,4 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
       - name: Validate EM27 metadata
-        uses: tum-esm/em27-retrieval-pipeline/.github/actions/validate-metadata@v1.11.0
+        uses: tum-esm/em27-retrieval-pipeline/.github/actions/validate-metadata@main
